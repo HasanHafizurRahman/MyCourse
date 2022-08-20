@@ -5,6 +5,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init'
 import SocialLogin from './SocialLogin/SocialLogin';
+import Loading from '../Shared/Loading';
 
 const Login = () => {
     const emailRef = useRef("")
@@ -33,6 +34,9 @@ const Login = () => {
       if(user){
         navigate(from, { replace: true })
       }
+      if(loading){
+        return <Loading></Loading>
+   }
 
     return (
         <div className='container w-50 mx-auto'>
