@@ -1,0 +1,6 @@
+[
+    {"id": 1, "name": "Complete Web Development", "description": "This is the best course to learn web development from zero to hero . We will teach you how to develope a website from the scratch", "price": "5500 BDT", "img": "https://i.ibb.co/pjBKZ0Y/jhanker.jpg"},
+    {"id": 2, "name": "Mern Stack Web Development", "description": "This is the best course to learn mern stact development from zero to hero . We will teach you how to develope a website from the scratch",  "price": "4500 BDT", "img": "https://i.ibb.co/10MwbMQ/rabbil.jpg"},
+    {"id": 3, "name": "CSE Fundamentals Course", "description": "This is the best course to learn programming from zero to hero . We will teach you how to develope a website from the scratch",  "price": "6500 BDT", "img": "https://i.ibb.co/jfPWYgk/phitron.jpg"},
+    {"id": 4, "name": "think in a react way", "description": "This is the best course to learn redux from intermediate to advance . We will teach you how to develope a website by using redux",  "price": "2000 BDT", "img": "https://i.ibb.co/K29Ryvr/sumit.jpg"}
+]
